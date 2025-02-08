@@ -1,0 +1,512 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Базовый стиль для выпадающего меню */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+}
+
+/* Стиль элементов в меню */
+.dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Позиционирование кнопки для выпадающего меню */
+.user-info {
+    position: relative;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: #ffffff; /* Светлый фон */
+    padding: 0 40px; /* Отступы сверху/снизу и слева/справа */
+    border-radius: 20px; /* Закругленные края */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); /* Тень для эффекта глубины */
+    margin: 20px auto; /* Отступы вокруг хедера */
+    max-width: 1200px; /* Ограничение ширины для центрирования */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.category-motivation {
+    background: url("../assets/background/motivation.jpg") center/cover no-repeat;
+}
+
+.category-wise {
+    background: url("../assets/background/wise.jpg") center/cover no-repeat;
+}
+
+.category-humor {
+    background: url("../assets/background/humor.jpg") center/cover no-repeat;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 100px);
+    padding: 0 20px;
+    font-size: 40px;
+    z-index: 0;
+    position: relative;
+}
+
+.user-info a {
+    text-decoration: none; /* Убираем подчеркивание */
+    background-color: white; /* Белый фон */
+    color: black; /* Цвет текста */
+    padding: 10px 20px; /* Отступы для кнопки */
+    border-radius: 5px; /* Скругленные края */
+    transition: background-color 0.3s; /* Плавный переход для фона */
+}
+
+.user-info a:hover {
+    background-color: gray; /* Серый фон при наведении */
+    color: white; /* Цвет текста при наведении (по желанию) */
+}
+
+/*Раздел со стилями для входа*/
+.body-page-signin {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 840px;
+    width: 100%;
+}
+
+.container-signin {
+    padding: 20px;
+    flex: 1;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.title-sigin {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.create-form {
+    width: 100%;
+}
+
+.create-form-group {
+    margin-bottom: 15px;
+}
+
+.control-label.col-sm-3 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.create-form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.link-signin {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-signin:hover {
+    text-decoration: underline;
+}
+
+.signin-img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.container-signin + div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+/*конец стилей для входа*/
+
+/*Стили для регистрации*/
+.body-page-signup {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+}
+
+.container-signup {
+    padding: 20px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.title-sigup {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.link-signup {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-signup:hover {
+    text-decoration: underline;
+}
+
+.container-signup + div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+/*Конец стилей для регистрации*/
+
+.menu-button {
+    background-color: white; /* Белый цвет кнопки */
+    border-radius: 5px; /* Закругленные края кнопки */
+    border: none; /* Убираем рамку кнопки */
+    padding: 10px;
+    font-size: 16px;
+}
+.menu-button:hover {
+    background-color: #e0e0e0; /* Цвет кнопки при наведении */
+}
+
+.all-quotes {
+    display: flex;
+    flex-direction: column; /* Размещаем цитаты вертикально */
+    align-items: center;    /* Выравниваем по центру */
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Отдельный блок для каждой цитаты */
+.quote-item {
+    width: 600px; /* Фиксированная ширина для блока цитаты */
+    max-width: 90%; /* Чтобы блок подстраивался под маленькие экраны */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Цвет фона блока */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    border-radius: 8px; /* Скругленные углы */
+    text-align: center;
+    position: relative; /* Для позиционирования звезды */
+}
+
+/* Стиль цитаты и автора */
+.quote-item blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-item footer {
+    align-items: end;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.category-section {
+    font-size: 0.6em;
+    color: #666;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    color: #ffd700; /* Золотистый цвет */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.quote-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-section {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.filter-section select, .filter-section button {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*Стили для квиза*/
+.quiz-body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    margin: 0;
+}
+
+.quiz-container {
+    width: 60%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eaeaea;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.option.correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+.option.wrong {
+    background-color: #f44336;
+    color: white;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: none;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
+
+/*Стили для добавленных цитат*/
+.my-body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-form-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+}
+
+.my-form-container {
+    padding: 20px;
+    flex: 1;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.my-title {
+    text-align: center;
+}
+
+.form-horizontal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-horizontal .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-horizontal label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-horizontal textarea,
+.form-horizontal input,
+.form-horizontal select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-horizontal button {
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-horizontal button:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.quote-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quote-list blockquote {
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.quote-list footer {
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+}
+
+.quote-list form {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.quote-list button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quote-list button:hover {
+    background-color: #a71d2a;
+}
+
+.my-quote-item {
+    padding-bottom: 20px;
+}

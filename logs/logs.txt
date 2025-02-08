@@ -1,0 +1,182 @@
+2024-12-11 08:58:02,518 INFO Main [main] Hello World
+2024-12-11 08:58:48,778 INFO s.QuizServlet [http-nio-8080-exec-9] QuizServlet init
+2024-12-11 09:09:40,427 INFO s.QuizServlet [http-nio-8080-exec-2] QuizServlet init
+2024-12-11 09:13:42,690 INFO s.QuizServlet [http-nio-8080-exec-3] QuizServlet init
+2024-12-11 11:24:38,659 INFO s.QuizServlet [http-nio-8080-exec-9] QuizServlet init
+2024-12-11 11:33:21,476 INFO s.QuizServlet [http-nio-8080-exec-7] QuizServlet init
+2024-12-11 19:14:07,399 INFO s.QuizServlet [http-nio-8080-exec-9] QuizServlet init
+2024-12-11 19:34:57,267 INFO s.QuizServlet [http-nio-8080-exec-1] QuizServlet init
+2024-12-11 20:02:53,548 INFO s.QuizServlet [http-nio-8080-exec-6] QuizServlet init
+2024-12-15 10:10:12,013 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:10:12,081 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:22:20,989 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:22:21,052 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:23:28,865 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:23:28,921 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:12,561 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:12,595 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:12,624 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Schema history table "public"."flyway_schema_history" does not exist yet
+2024-12-15 10:28:12,626 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.012s)
+2024-12-15 10:28:12,635 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Creating Schema History table "public"."flyway_schema_history" ...
+2024-12-15 10:28:12,661 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": << Empty Schema >>
+2024-12-15 10:28:12,667 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "1 - create"
+2024-12-15 10:28:12,690 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:12,703 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:28:12,741 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:12,746 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:12,753 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.003s)
+2024-12-15 10:28:12,796 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:28:12,799 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:12,803 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:28:33,071 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:33,104 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:33,139 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.019s)
+2024-12-15 10:28:33,147 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:28:33,159 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:33,176 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:28:33,214 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:33,220 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:33,226 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.002s)
+2024-12-15 10:28:33,247 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:28:33,253 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:33,256 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:28:53,137 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:53,173 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:53,209 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.020s)
+2024-12-15 10:28:53,217 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:28:53,229 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:53,249 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:28:53,286 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:28:53,292 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:28:53,298 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.003s)
+2024-12-15 10:28:53,319 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:28:53,324 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:28:53,327 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:29:52,818 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:29:52,853 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:29:52,890 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.020s)
+2024-12-15 10:29:52,899 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:29:52,910 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:29:52,927 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:29:52,963 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:29:52,968 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:29:52,974 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.002s)
+2024-12-15 10:29:52,996 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:29:52,999 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:29:53,004 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:31:49,218 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:31:49,252 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:31:49,329 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:31:49,335 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:32:01,904 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:32:01,938 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:32:02,012 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:32:02,017 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:32:46,214 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:32:46,249 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:32:46,275 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Schema history table "public"."flyway_schema_history" does not exist yet
+2024-12-15 10:32:46,277 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.012s)
+2024-12-15 10:32:46,284 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Creating Schema History table "public"."flyway_schema_history" ...
+2024-12-15 10:32:46,306 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": << Empty Schema >>
+2024-12-15 10:32:46,313 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "1 - create"
+2024-12-15 10:32:46,334 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:32:46,351 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:32:46,388 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:32:46,394 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:32:46,401 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.003s)
+2024-12-15 10:32:46,422 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:32:46,424 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:32:46,428 ERROR o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migration of schema "public" to version "2 - insert" failed! Changes successfully rolled back.
+2024-12-15 10:33:33,779 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:33:33,816 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:33:33,851 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.019s)
+2024-12-15 10:33:33,860 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 1
+2024-12-15 10:33:33,871 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:33:33,886 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Successfully applied 1 migration to schema "public", now at version v2 (execution time 00:00.007s)
+2024-12-15 10:33:33,894 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 10:36:40,116 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:36:40,150 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:36:40,227 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:36:40,233 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:37:03,710 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:37:03,744 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:37:03,823 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:37:03,829 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:40:08,496 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 10:40:08,529 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 10:40:08,557 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Schema history table "public"."flyway_schema_history" does not exist yet
+2024-12-15 10:40:08,559 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.013s)
+2024-12-15 10:40:08,566 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Creating Schema History table "public"."flyway_schema_history" ...
+2024-12-15 10:40:08,588 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": << Empty Schema >>
+2024-12-15 10:40:08,594 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "1 - create"
+2024-12-15 10:40:08,619 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 10:40:08,630 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Successfully applied 2 migrations to schema "public", now at version v2 (execution time 00:00.019s)
+2024-12-15 10:40:08,636 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 20:58:14,361 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 20:58:14,394 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 20:58:14,432 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.020s)
+2024-12-15 20:58:14,440 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-15 20:58:14,441 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-15 20:58:14,447 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 21:01:43,293 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 21:01:43,327 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 21:01:43,354 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Schema history table "public"."flyway_schema_history" does not exist yet
+2024-12-15 21:01:43,356 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.013s)
+2024-12-15 21:01:43,365 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Creating Schema History table "public"."flyway_schema_history" ...
+2024-12-15 21:01:43,387 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": << Empty Schema >>
+2024-12-15 21:01:43,394 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "1 - create"
+2024-12-15 21:01:43,424 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 21:01:43,433 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Successfully applied 2 migrations to schema "public", now at version v2 (execution time 00:00.025s)
+2024-12-15 21:01:43,439 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 21:05:03,558 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 21:05:03,592 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 21:05:03,616 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Schema history table "public"."flyway_schema_history" does not exist yet
+2024-12-15 21:05:03,618 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.011s)
+2024-12-15 21:05:03,626 INFO o.f.c.i.s.JdbcTableSchemaHistory [RMI TCP Connection(2)-127.0.0.1] Creating Schema History table "public"."flyway_schema_history" ...
+2024-12-15 21:05:03,649 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": << Empty Schema >>
+2024-12-15 21:05:03,656 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "1 - create"
+2024-12-15 21:05:03,681 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Migrating schema "public" to version "2 - insert"
+2024-12-15 21:05:03,691 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Successfully applied 2 migrations to schema "public", now at version v2 (execution time 00:00.017s)
+2024-12-15 21:05:03,697 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 21:13:01,764 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 21:13:01,797 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 21:13:01,832 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.019s)
+2024-12-15 21:13:01,840 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-15 21:13:01,842 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-15 21:13:01,847 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 21:20:18,158 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 21:20:18,191 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 21:20:18,228 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.020s)
+2024-12-15 21:20:18,236 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-15 21:20:18,238 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-15 21:20:18,244 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-15 21:23:08,979 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-15 21:23:09,013 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-15 21:23:09,051 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.020s)
+2024-12-15 21:23:09,059 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-15 21:23:09,060 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-15 21:23:09,066 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-16 11:55:15,409 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-16 11:55:15,451 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-16 11:55:15,502 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.023s)
+2024-12-16 11:55:15,510 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-16 11:55:15,512 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-16 11:55:15,518 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-16 13:17:11,148 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-16 13:17:11,189 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-16 13:17:11,233 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.024s)
+2024-12-16 13:17:11,241 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-16 13:17:11,243 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-16 13:17:11,249 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2024-12-23 12:31:42,325 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2024-12-23 12:31:42,366 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2024-12-23 12:31:42,414 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.021s)
+2024-12-23 12:31:42,422 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2024-12-23 12:31:42,425 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2024-12-23 12:31:42,430 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
+2025-01-15 18:04:47,761 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] start migration
+2025-01-15 18:04:47,803 INFO o.f.c.FlywayExecutor [RMI TCP Connection(2)-127.0.0.1] Database: jdbc:postgresql://localhost:5432/quotes (PostgreSQL 17.2)
+2025-01-15 18:04:47,852 INFO o.f.c.i.c.DbValidate [RMI TCP Connection(2)-127.0.0.1] Successfully validated 2 migrations (execution time 00:00.022s)
+2025-01-15 18:04:47,860 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Current version of schema "public": 2
+2025-01-15 18:04:47,862 INFO o.f.c.i.c.DbMigrate [RMI TCP Connection(2)-127.0.0.1] Schema "public" is up to date. No migration necessary.
+2025-01-15 18:04:47,868 INFO c.ConnectionProvider [RMI TCP Connection(2)-127.0.0.1] finish migration
